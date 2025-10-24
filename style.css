@@ -19,7 +19,7 @@ nav {
     background: #0C2C56;
     background: linear-gradient(100deg,rgba(12, 44, 86, 1) 15%, rgba(0, 92, 92, 1) 30%, rgba(196, 206, 212, 0.96) 50%, rgba(0, 92, 92, 1) 70%, rgba(12, 44, 86, 1) 85%);
     width: auto;
-    height: 20px;
+    height: 19px;
     padding-top: 20px;
     border-radius: 0px 0px 15px 15px;
     padding-left: 20px;
@@ -45,7 +45,30 @@ nav a:hover {
 main {
     background-color: #ececec;
     width: auto;
+    height: 300px;
     padding: 20px;
     border-radius: 15px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+    margin-top: 5px;
+    padding: 10px 10px 10px 10px;
+    overflow: auto;
+}
+aside {
+    background-color: #D3D3D3;
+    width: 25%;
+    height: auto;
+    float: left;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+    margin-right: 20px;
+}
+article {
+    background-color: #D3D3D3;
+    width: 65%;
+    height: auto;
+    float: left;
+    padding: 15px;
+    border-radius: 10px;
     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
 }
